@@ -155,6 +155,7 @@ font-size: 32px;
   border-radius: 5px;
 overflow: hidden;
 background-color: #ffff;
+margin-bottom: 100px;
 
 }
 
@@ -163,6 +164,7 @@ background-color: #ffff;
 .card-articles img{
   height: 50%;
   width: 100%;
+  
 }
 
 .img-articles{
@@ -198,6 +200,7 @@ color: gray;
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
+ 
   
 }
 .footer .footer1{
