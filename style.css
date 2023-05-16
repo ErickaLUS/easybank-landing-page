@@ -1,10 +1,8 @@
 
-
 body{
    padding: 0;
     margin: 0;
 }
-
 .header{
     display: flex;
     justify-content: space-between;
@@ -12,14 +10,16 @@ body{
     align-items: center;
     margin-top: 15px;
     margin-left: 110px;
-   
+     background-color: #FFFF;
 }
 
 .header .nav a{
  text-decoration: none;
  color: #E2E1E5;
  margin: 8px;
+  
 }
+
 
 .header .nav a:hover{
     color:#37373e;
@@ -32,9 +32,249 @@ body{
     border: none;
    border-radius: 50em;
     color: white;
-   background: linear-gradient(to right, #39c780, #92d9da);
+   background: linear-gradient(to right,#39c780, #92d9da);
    padding: 8px 14px 8px 14px;
-
+cursor: pointer;
    font-size: 12px;
 }
 
+.button>button:hover{
+    border: none;
+   border-radius: 50em;
+    color: white;
+   background: linear-gradient(to right, #0a712e, #92d9da);
+   padding: 8px 14px 8px 14px;
+cursor: pointer;
+   font-size: 12px;
+}
+
+.first-container{
+  display: flex;
+  margin-top: 20px;
+  background-color: #FAFAFA;
+  overflow: hidden;
+   
+}
+
+.left{
+     max-width: 1024px;
+      padding-top: 110px;
+    margin-left: 110px;
+}
+
+.left h1{
+  color:#272942;
+  font-size: 46px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-left: 8px;
+}
+.left p{
+  color: #C9CACE;
+  font-size: 18px;
+
+}
+
+.left .button{
+   border: none;
+   border-radius: 50em;
+    color: white;
+   background: linear-gradient(to right, #39c780, #92d9da);
+   padding: 8px 14px 8px 14px;
+    font-size: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.left .button:hover{
+   border: none;
+   border-radius: 50em;
+    color: white;
+   background: linear-gradient(to right, #0a712e, #92d9da);
+   padding: 8px 14px 8px 14px;
+    font-size: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.right .image {
+ max-width: 1024px;
+ margin-left: 17%;
+ margin-top: -9%;
+ overflow: auto;
+  background-image: url("images/bg-intro-desktop.svg");
+  
+}
+
+
+.choosebank{
+     background-color: #F4F5F7;
+     margin-top: -7%;
+}
+
+.choose h1{
+  font-size: 32px;
+  margin-left: 110px ;
+  color:#303048;
+padding-top: 40px;
+}
+.choose p{
+  font-size: 18px;
+   margin-left: 110px ;
+   color: #C9CACE;
+}
+
+.img{
+  display: flex;
+  margin-left: 110px;
+}
+.img h1{
+  color:#303048;
+}
+.img p{
+  color:#C9CACE;
+}
+
+.article{
+   margin-top: -2%;
+   background-color:#FAFAFA;
+  
+
+}
+
+h1{
+margin-left: 110px;
+padding-top: 20px;
+font-size: 32px;
+  color:#303048;
+}
+
+.card-articles{
+ 
+  margin-left: 15px;
+  border-radius: 5px;
+overflow: hidden;
+background-color: #ffff;
+
+}
+
+
+
+.card-articles img{
+  height: 50%;
+  width: 100%;
+}
+
+.img-articles{
+  display: flex;
+  margin-left: 100px;
+    margin-right: 110px;
+}
+
+.card-articles h3{
+  font-size: 12px;
+  color: #C9CACE;
+  padding-left: 15px;
+}
+
+.card-articles h2{
+  font-size: 18px;
+  color: #303048;
+  padding-left: 15px;
+}
+.card-articles h2:hover{
+  font-size: 18px;
+  color: #8AC8B1;
+  padding-left: 15px;
+  cursor:pointer;
+}
+.card-articles p{
+  font-size: 14px;
+color: gray;
+  padding-left: 15px;
+}
+.footer{
+  background-color: #2D314E;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  
+}
+.footer .footer1{
+  margin-left: 110px;
+ 
+}
+.logo .logo1{
+filter: brightness(0) invert(1);
+}
+
+.socialIcon{
+  display: flex;
+  justify-content: space-between;
+   padding-top: 20px;
+   cursor: pointer;
+ 
+}
+#Oval-1:hover{
+  fill:#39c780;
+}
+
+.menu{
+  display: flex;
+align-items: center;
+    margin-right:295px;
+  
+}
+.menu a{
+    color: #FFFF;
+      padding: 15px;
+      text-decoration: none;
+  }
+
+  .menu a:hover{
+    color: #39c780;
+     
+  }
+
+.nav1{
+ display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+   
+  
+}
+
+.nav2{
+ display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+
+}
+
+.button1{
+    border: none;
+   border-radius: 50em;
+    color: white;
+   background: linear-gradient(to right, #39c780, #92d9da);
+   padding: 8px 14px 8px 14px;
+    font-size: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+     margin-right:100px;
+}
+
+.button1:hover{
+    border: none;
+   border-radius: 50em;
+    color: white;
+   background: linear-gradient(to right, #0a712e, #92d9da);
+   padding: 8px 14px 8px 14px;
+    font-size: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+     margin-right:100px;
+}
+
+.copyright{
+  color:gray 
+}
